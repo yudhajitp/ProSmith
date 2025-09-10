@@ -3,6 +3,12 @@ channels:
   - pytorch
   - conda-forge
 dependencies:
-  - python=3.8.3
-  - pytorch=2.0.0
-  - cudatoolkit=11.7
+  - pandas
+  - numpy
+  - biopython
+  - transformers
+  - fair-esm
+  - scikit-learn
+  - lifelines
+  - xgboost
+  - hyperopt
