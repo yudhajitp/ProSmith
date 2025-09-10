@@ -1,0 +1,17 @@
+name: prosmith
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python
+  - pytorch
+  - cudatoolkit
+  - numpy
+  - pandas
+  - biopython
+  - transformers
+  - fair-esm
+  - scikit-learn
+  - lifelines
+  - xgboost
+  - hyperopt
