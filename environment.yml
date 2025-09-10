@@ -1,9 +1,7 @@
 name: prosmith
 channels:
-  - pytorch
   - conda-forge
 dependencies:
-  - cudatoolkit
   - pandas
   - biopython
   - transformers
