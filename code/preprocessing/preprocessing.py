@@ -41,7 +41,7 @@ args = get_arguments()
 dataframes = os.listdir(args.train_val_path)
 df = pd.read_csv(join(args.train_val_path, dataframes[0]))
 for dataframe in dataframes[1:]:
-	df = df.append(pd.read_csv(join(args.train_val_path, dataframe)), ignore_index = True)
+	df = df._append(pd.read_csv(join(args.train_val_path, dataframe)), ignore_index = True)
 
 
 #Get all Protein Sequences and SMILES strings
