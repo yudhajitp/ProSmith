@@ -3,6 +3,9 @@ channels:
   - pytorch
   - conda-forge
 dependencies:
+  - python
+  - pytorch
+  - cudatoolkit
   - pandas
   - numpy
   - biopython
